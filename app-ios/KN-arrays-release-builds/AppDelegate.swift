@@ -25,19 +25,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func doTests() {
         let array1 = ArraysConstructor(int1: 1, int2: 2)
         array1.log()
-        
-        print("--------------------------------")
-        
-        let array2 = ArraysDefault(int1: 1, int2: 2)
-        array2.log()
-        
-        print("--------------------------------")
         array1.set(int1: 3, int2: 4)
         array1.log()
         
         print("--------------------------------")
+        let array2 = ArraysDefault(int1: 1, int2: 2)
+        array2.log()
         array2.set(int1: 3, int2: 4)
         array2.log()
+ 
+        print("--------------------------------")
+        let array3 = ArraysInitBlock(int1: 1, int2: 2)
+        array3.log()
+        array3.set(int1: 3, int2: 4)
+        array3.log()
         
     }
 }
