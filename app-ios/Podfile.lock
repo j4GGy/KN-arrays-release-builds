@@ -1,0 +1,16 @@
+PODS:
+  - KNArrays (1.0.0)
+
+DEPENDENCIES:
+  - KNArrays (from `../KNArrays`)
+
+EXTERNAL SOURCES:
+  KNArrays:
+    :path: "../KNArrays"
+
+SPEC CHECKSUMS:
+  KNArrays: def750324764c789ab3a209948d4b17b2f780410
+
+PODFILE CHECKSUM: aa3a92b47de252db93d3e492857470de037b8936
+
+COCOAPODS: 1.9.3

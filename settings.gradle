@@ -1,0 +1,2 @@
+include ':KNArrays'
+rootProject.name = "KN-arrays-release-builds"
